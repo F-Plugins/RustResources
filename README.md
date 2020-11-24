@@ -1,5 +1,5 @@
 # F.RustResources
-![Discord](https://img.shields.io/discord/742861338233274418?label=Discord&logo=Discord) [![Github All Releases](https://img.shields.io/github/downloads/01-Feli/F.RustResources/total.svg)]()
+![Discord](https://img.shields.io/discord/742861338233274418?label=Discord&logo=Discord) ![NugetDownloads](https://img.shields.io/nuget/dt/F.RustResources?label=Nuget%20Downloads) [![Github All Releases](https://img.shields.io/github/downloads/01-Feli/F.RustResources/total.svg)]()
 
 A plugin that simulates the resource system of rust
 
