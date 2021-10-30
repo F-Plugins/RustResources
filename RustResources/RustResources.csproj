@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>RustResources</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <TargetFramework>net461</TargetFramework>
+    <Nullable>disable</Nullable>
+    <Version>0.0.0</Version>
+    <AssemblyVersion>0.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Feli.RustResources</PackageId>
+    <!-- must be unique, should be same as your plugin ID -->
+    <PackageDescription>A plugin that simulates the resources system of rust</PackageDescription>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <!-- see https://spdx.org/licenses/ -->
+    <PackageAuthor>Feli</PackageAuthor>
+    <PackageTags>openmod openmod-plugin unturned</PackageTags>
+    <!-- XXX can be unturned, unityengine or universal depending on your plugin -->
+    <Version>0.0.0</Version>
+    <!-- Your plugins version. Must be semversion, see https://semver.org/ -->
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GenerateNugetPackage>true</GenerateNugetPackage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenMod.Unturned" Version="3.2.0" />
+  </ItemGroup>
+
+</Project>
