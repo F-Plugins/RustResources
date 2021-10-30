@@ -18,7 +18,7 @@ namespace RustResources
         private readonly ILogger<Plugin> logger;
 
         public Plugin(
-            ILogger logger,
+            ILogger<Plugin> logger,
             IServiceProvider serviceProvider) : base(serviceProvider)
         {
             this.logger = logger;
