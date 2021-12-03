@@ -5,13 +5,13 @@ using OpenMod.Unturned.Plugins;
 using System;
 
 [assembly: PluginMetadata("Feli.RustResources", 
-    DisplayName = "RustResources",
+    DisplayName = "Rust Resources",
     Author = "Feli",
     Description = "A plugin that simulates the resources system of rust",
     Website = "https://discord.gg/4FF2548"
 )]
 
-namespace RustResources
+namespace Feli.OpenMod.RustResources
 {
     public class Plugin : OpenModUnturnedPlugin
     {

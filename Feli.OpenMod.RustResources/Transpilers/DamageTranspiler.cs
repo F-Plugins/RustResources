@@ -6,7 +6,7 @@ using System.Linq;
 using System.Reflection.Emit;
 using UnityEngine;
 
-namespace RustResources.Transpilers
+namespace Feli.OpenMod.RustResources.Transpilers
 {
     [HarmonyPatch(typeof(ResourceManager))]
     public static class DamageTranspiler

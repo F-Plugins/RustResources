@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <RootNamespace>RustResources</RootNamespace>
+    <RootNamespace>Feli.OpenMod.RustResources</RootNamespace>
     <LangVersion>latest</LangVersion>
     <TargetFramework>net461</TargetFramework>
     <Nullable>disable</Nullable>
